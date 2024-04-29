@@ -1,47 +1,149 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-27T09:54:39 CEST" name="Default suite" finished-at="2024-04-27T09:54:49 CEST" duration-ms="10367">
+  <suite started-at="2024-04-29T12:39:19 CEST" name="Suite" finished-at="2024-04-29T12:40:01 CEST" duration-ms="41461">
     <groups>
-      <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Cucumber.TestNGTestRunner@7f485fda]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
-      </group> <!-- cucumber -->
+      <group name="ErrorHandling">
+        <method signature="ErrorValidation.LoginErrorValidation()[pri:0, instance:PersonalProjects.SeleniumFrameworkDesign.ErrorValidation@421bba99]" name="LoginErrorValidation" class="PersonalProjects.SeleniumFrameworkDesign.ErrorValidation"/>
+      </group> <!-- ErrorHandling -->
+      <group name="Purchase">
+        <method signature="UpgradedStandAloneTest.SubmitOrder(java.util.HashMap)[pri:0, instance:PersonalProjects.SeleniumFrameworkDesign.UpgradedStandAloneTest@55493582]" name="SubmitOrder" class="PersonalProjects.SeleniumFrameworkDesign.UpgradedStandAloneTest"/>
+      </group> <!-- Purchase -->
     </groups>
-    <test started-at="2024-04-27T09:54:39 CEST" name="Default test" finished-at="2024-04-27T09:54:49 CEST" duration-ms="10367">
-      <class name="Cucumber.TestNGTestRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:Cucumber.TestNGTestRunner@7f485fda]" started-at="2024-04-27T09:54:39 CEST" name="setUpClass" finished-at="2024-04-27T09:54:39 CEST" duration-ms="612" status="PASS">
+    <test started-at="2024-04-29T12:39:19 CEST" name="Error Validation Test" finished-at="2024-04-29T12:39:49 CEST" duration-ms="29194">
+      <class name="PersonalProjects.SeleniumFrameworkDesign.ErrorValidation">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:PersonalProjects.SeleniumFrameworkDesign.ErrorValidation@421bba99]" started-at="2024-04-29T12:39:19 CEST" name="launchApplication" finished-at="2024-04-29T12:39:26 CEST" duration-ms="6826" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="LoginErrorValidation()[pri:0, instance:PersonalProjects.SeleniumFrameworkDesign.ErrorValidation@421bba99]" started-at="2024-04-29T12:39:26 CEST" name="LoginErrorValidation" finished-at="2024-04-29T12:39:27 CEST" duration-ms="837" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:PersonalProjects.SeleniumFrameworkDesign.ErrorValidation@421bba99]" started-at="2024-04-29T12:39:27 CEST" name="tearDown" finished-at="2024-04-29T12:39:27 CEST" duration-ms="159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:PersonalProjects.SeleniumFrameworkDesign.ErrorValidation@421bba99]" started-at="2024-04-29T12:39:27 CEST" name="launchApplication" finished-at="2024-04-29T12:39:33 CEST" duration-ms="5575" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="ProductErrorValidation(java.util.HashMap)[pri:0, instance:PersonalProjects.SeleniumFrameworkDesign.ErrorValidation@421bba99]" started-at="2024-04-29T12:39:33 CEST" name="ProductErrorValidation" data-provider="getData" finished-at="2024-04-29T12:39:38 CEST" duration-ms="4713" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@29a1505c]]>
+                <![CDATA[{password=Roltoma1234, email=polegywork@gmail.com, productName=ZARA COAT 3}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Cucumber.TestNGTestRunner@7f485fda]" started-at="2024-04-27T09:54:39 CEST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-27T09:54:49 CEST" duration-ms="9690" status="PASS">
+        </test-method> <!-- ProductErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:PersonalProjects.SeleniumFrameworkDesign.ErrorValidation@421bba99]" started-at="2024-04-29T12:39:38 CEST" name="tearDown" finished-at="2024-04-29T12:39:38 CEST" duration-ms="130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:PersonalProjects.SeleniumFrameworkDesign.ErrorValidation@421bba99]" started-at="2024-04-29T12:39:38 CEST" name="launchApplication" finished-at="2024-04-29T12:39:43 CEST" duration-ms="5782" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="ProductErrorValidation(java.util.HashMap)[pri:0, instance:PersonalProjects.SeleniumFrameworkDesign.ErrorValidation@421bba99]" started-at="2024-04-29T12:39:43 CEST" name="ProductErrorValidation" data-provider="getData" finished-at="2024-04-29T12:39:48 CEST" duration-ms="4958" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Negative Test of Entering Incorrect Login Credentials"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Error Validation"]]>
+                <![CDATA[{password=Roltoma1234, email=omarahmed123443@gmail.com, productName=ADIDAS ORIGINAL}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:Cucumber.TestNGTestRunner@7f485fda]" started-at="2024-04-27T09:54:49 CEST" name="tearDownClass" finished-at="2024-04-27T09:54:49 CEST" duration-ms="17" status="PASS">
+        </test-method> <!-- ProductErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:PersonalProjects.SeleniumFrameworkDesign.ErrorValidation@421bba99]" started-at="2024-04-29T12:39:48 CEST" name="tearDown" finished-at="2024-04-29T12:39:49 CEST" duration-ms="145" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDownClass -->
-      </class> <!-- Cucumber.TestNGTestRunner -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- tearDown -->
+      </class> <!-- PersonalProjects.SeleniumFrameworkDesign.ErrorValidation -->
+    </test> <!-- Error Validation Test -->
+    <test started-at="2024-04-29T12:39:19 CEST" name="Submit Order Test" finished-at="2024-04-29T12:40:01 CEST" duration-ms="41461">
+      <class name="PersonalProjects.SeleniumFrameworkDesign.UpgradedStandAloneTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:PersonalProjects.SeleniumFrameworkDesign.UpgradedStandAloneTest@55493582]" started-at="2024-04-29T12:39:20 CEST" name="launchApplication" finished-at="2024-04-29T12:39:26 CEST" duration-ms="6311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="SubmitOrder(java.util.HashMap)[pri:0, instance:PersonalProjects.SeleniumFrameworkDesign.UpgradedStandAloneTest@55493582]" started-at="2024-04-29T12:39:26 CEST" name="SubmitOrder" data-provider="getData" finished-at="2024-04-29T12:39:32 CEST" duration-ms="6499" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Roltoma1234, email=polegywork@gmail.com, productName=ZARA COAT 3}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SubmitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:PersonalProjects.SeleniumFrameworkDesign.UpgradedStandAloneTest@55493582]" started-at="2024-04-29T12:39:32 CEST" name="tearDown" finished-at="2024-04-29T12:39:33 CEST" duration-ms="194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:PersonalProjects.SeleniumFrameworkDesign.UpgradedStandAloneTest@55493582]" started-at="2024-04-29T12:39:33 CEST" name="launchApplication" finished-at="2024-04-29T12:39:38 CEST" duration-ms="5566" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="SubmitOrder(java.util.HashMap)[pri:0, instance:PersonalProjects.SeleniumFrameworkDesign.UpgradedStandAloneTest@55493582]" started-at="2024-04-29T12:39:38 CEST" name="SubmitOrder" data-provider="getData" finished-at="2024-04-29T12:39:45 CEST" duration-ms="6415" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Roltoma1234, email=omarahmed123443@gmail.com, productName=ADIDAS ORIGINAL}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SubmitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:PersonalProjects.SeleniumFrameworkDesign.UpgradedStandAloneTest@55493582]" started-at="2024-04-29T12:39:45 CEST" name="tearDown" finished-at="2024-04-29T12:39:47 CEST" duration-ms="1934" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:PersonalProjects.SeleniumFrameworkDesign.UpgradedStandAloneTest@55493582]" started-at="2024-04-29T12:39:47 CEST" name="launchApplication" finished-at="2024-04-29T12:39:52 CEST" duration-ms="5491" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="VerifyOrder(java.util.HashMap)[pri:0, instance:PersonalProjects.SeleniumFrameworkDesign.UpgradedStandAloneTest@55493582]" started-at="2024-04-29T12:39:52 CEST" name="VerifyOrder" data-provider="getData" finished-at="2024-04-29T12:39:53 CEST" depends-on-methods="PersonalProjects.SeleniumFrameworkDesign.UpgradedStandAloneTest.SubmitOrder" duration-ms="1398" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Roltoma1234, email=polegywork@gmail.com, productName=ZARA COAT 3}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:PersonalProjects.SeleniumFrameworkDesign.UpgradedStandAloneTest@55493582]" started-at="2024-04-29T12:39:53 CEST" name="tearDown" finished-at="2024-04-29T12:39:54 CEST" duration-ms="211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:PersonalProjects.SeleniumFrameworkDesign.UpgradedStandAloneTest@55493582]" started-at="2024-04-29T12:39:54 CEST" name="launchApplication" finished-at="2024-04-29T12:39:59 CEST" duration-ms="5592" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="VerifyOrder(java.util.HashMap)[pri:0, instance:PersonalProjects.SeleniumFrameworkDesign.UpgradedStandAloneTest@55493582]" started-at="2024-04-29T12:39:59 CEST" name="VerifyOrder" data-provider="getData" finished-at="2024-04-29T12:40:01 CEST" depends-on-methods="PersonalProjects.SeleniumFrameworkDesign.UpgradedStandAloneTest.SubmitOrder" duration-ms="1377" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Roltoma1234, email=omarahmed123443@gmail.com, productName=ADIDAS ORIGINAL}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:PersonalProjects.SeleniumFrameworkDesign.UpgradedStandAloneTest@55493582]" started-at="2024-04-29T12:40:01 CEST" name="tearDown" finished-at="2024-04-29T12:40:01 CEST" duration-ms="156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- PersonalProjects.SeleniumFrameworkDesign.UpgradedStandAloneTest -->
+    </test> <!-- Submit Order Test -->
+  </suite> <!-- Suite -->
 </testng-results>
