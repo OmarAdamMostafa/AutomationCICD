@@ -15,6 +15,8 @@ import PageObjects.LandingPage;
 
 public class StandAloneTest {
 		public static void main(String[] args) {
+			// Added this line for GitHub Jenkins WebHook testing
+			
 			WebDriver driver = new ChromeDriver();
 			WebDriverWait w = new WebDriverWait(driver, Duration.ofSeconds(5));
 			String productName = "ZARA COAT 3";
