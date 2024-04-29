@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="PersonalProjects.TestComponents.Listeners" />
+	</listeners>
+	<test name="Error Validation Test">
+		<classes>
+			<class
+				name="PersonalProjects.SeleniumFrameworkDesign.ErrorValidation" />
+		</classes>
+	</test>
+</suite> 

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<groups>
+		<run>
+			<include name="Purchase" />
+		</run>
+	</groups>
+	<test name="Submit Order Test">
+		<classes>
+			<class
+				name="PersonalProjects.SeleniumFrameworkDesign.UpgradedStandAloneTest" />
+		</classes>
+	</test>
+</suite> 

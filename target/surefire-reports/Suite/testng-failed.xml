@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="PersonalProjects.TestComponents.Listeners"/>
+  </listeners>
+  <test thread-count="5" parallel="tests" name="Submit Order Test(failed)" verbose="0">
+    <classes>
+      <class name="PersonalProjects.SeleniumFrameworkDesign.UpgradedStandAloneTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="SubmitOrder" invocation-numbers="1"/>
+          <include name="VerifyOrder"/>
+          <include name="launchApplication"/>
+        </methods>
+      </class> <!-- PersonalProjects.SeleniumFrameworkDesign.UpgradedStandAloneTest -->
+    </classes>
+  </test> <!-- Submit Order Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

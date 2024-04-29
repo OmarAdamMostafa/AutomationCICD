@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-27T11:40:28 CEST" name="Suite" finished-at="2024-04-27T11:40:57 CEST" duration-ms="28840">
+    <groups>
+      <group name="ErrorHandling">
+        <method signature="ErrorValidation.LoginErrorValidation()[pri:0, instance:PersonalProjects.SeleniumFrameworkDesign.ErrorValidation@8462f31]" name="LoginErrorValidation" class="PersonalProjects.SeleniumFrameworkDesign.ErrorValidation"/>
+      </group> <!-- ErrorHandling -->
+    </groups>
+    <test started-at="2024-04-27T11:40:28 CEST" name="Error Validation Test" finished-at="2024-04-27T11:40:57 CEST" duration-ms="28840">
+      <class name="PersonalProjects.SeleniumFrameworkDesign.ErrorValidation">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:PersonalProjects.SeleniumFrameworkDesign.ErrorValidation@8462f31]" started-at="2024-04-27T11:40:28 CEST" name="launchApplication" finished-at="2024-04-27T11:40:37 CEST" duration-ms="8493" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="LoginErrorValidation()[pri:0, instance:PersonalProjects.SeleniumFrameworkDesign.ErrorValidation@8462f31]" started-at="2024-04-27T11:40:37 CEST" name="LoginErrorValidation" finished-at="2024-04-27T11:40:38 CEST" duration-ms="754" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:PersonalProjects.SeleniumFrameworkDesign.ErrorValidation@8462f31]" started-at="2024-04-27T11:40:38 CEST" name="tearDown" finished-at="2024-04-27T11:40:38 CEST" duration-ms="90" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:PersonalProjects.SeleniumFrameworkDesign.ErrorValidation@8462f31]" started-at="2024-04-27T11:40:38 CEST" name="launchApplication" finished-at="2024-04-27T11:40:43 CEST" duration-ms="5039" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="ProductErrorValidation(java.util.HashMap)[pri:0, instance:PersonalProjects.SeleniumFrameworkDesign.ErrorValidation@8462f31]" started-at="2024-04-27T11:40:43 CEST" name="ProductErrorValidation" data-provider="getData" finished-at="2024-04-27T11:40:48 CEST" duration-ms="4689" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Roltoma1234, email=polegywork@gmail.com, productName=ZARA COAT 3}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:PersonalProjects.SeleniumFrameworkDesign.ErrorValidation@8462f31]" started-at="2024-04-27T11:40:48 CEST" name="tearDown" finished-at="2024-04-27T11:40:48 CEST" duration-ms="87" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:PersonalProjects.SeleniumFrameworkDesign.ErrorValidation@8462f31]" started-at="2024-04-27T11:40:48 CEST" name="launchApplication" finished-at="2024-04-27T11:40:53 CEST" duration-ms="4758" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="ProductErrorValidation(java.util.HashMap)[pri:0, instance:PersonalProjects.SeleniumFrameworkDesign.ErrorValidation@8462f31]" started-at="2024-04-27T11:40:53 CEST" name="ProductErrorValidation" data-provider="getData" finished-at="2024-04-27T11:40:57 CEST" duration-ms="4602" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Roltoma1234, email=omarahmed123443@gmail.com, productName=ADIDAS ORIGINAL}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:PersonalProjects.SeleniumFrameworkDesign.ErrorValidation@8462f31]" started-at="2024-04-27T11:40:57 CEST" name="tearDown" finished-at="2024-04-27T11:40:57 CEST" duration-ms="73" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- PersonalProjects.SeleniumFrameworkDesign.ErrorValidation -->
+    </test> <!-- Error Validation Test -->
+  </suite> <!-- Suite -->
+</testng-results>
